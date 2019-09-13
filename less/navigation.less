@@ -5,6 +5,10 @@ header{
     display: flex;
     justify-content: space-between;
     max-width: 100%;
+    @media ( max-width: 515px ) {
+        flex-direction: column;
+        align-items: center;
+      }
 
     h1{
         margin-left: 10%;
@@ -23,7 +27,7 @@ header{
             margin-left: 20px;
             font-size: 1.8rem;
             text-decoration: none;
-           color: black;
+            color: black;
         }
     }
 }
