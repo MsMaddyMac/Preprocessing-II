@@ -242,7 +242,7 @@ header nav a {
 }
 .content-destination {
   width: 64%;
-  margin: 0 auto 30px;
+  margin: 20px auto 30px;
 }
 .content-destination img {
   border-radius: 10px;
@@ -259,4 +259,15 @@ header nav a {
 .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.content-pick .btn {
+  display: block;
+  background-color: #17A2B8;
+  margin: 0px 0px 20px 0px;
+  cursor: pointer;
+  width: 230px;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 10px;
+  color: #FFFFFF;
 }
